@@ -58,6 +58,7 @@ const Footer = () => {
                 <p>61a Featherston Street</p>
                 <p>Wellington, 6011</p>
                 </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5118.219727163335!2d174.7764430131901!3d-41.28021873987453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38ae2c7a8955ef%3A0x68fa761a9d8b6171!2sBeyond%20Skin%20Wellbeing%20Medical%20Spa!5e1!3m2!1sen!2sau!4v1734343871869!5m2!1sen!2sau" width="600" height="450" style={{border: 0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </>
