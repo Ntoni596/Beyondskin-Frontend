@@ -6,7 +6,7 @@
 }
 body{
     font-family: 'IBM Plex Serif', serif;
-    background-color: rgb(239, 255, 235);
+    background-color: #efffeb;
     overflow-x: hidden;
 }
 
@@ -14,7 +14,17 @@ body{
 
 .scrolled{
     transition:1s;
-    background-color: #000000cc;
+    background-color: #efffeb;
+    color: #000;
+}
+
+.scrolled a{
+    transition: 1s;
+    color: #353535 !important;
+}
+
+.scrolled a::hover{
+    color: #7bc144 !important;
 }
 .overlay1{
     width: 100%;
@@ -179,10 +189,16 @@ body{
 
 .reviews-container{
     font-family: 'Poppins', sans-serif !important;
+    padding: 5% 0;
+
 }
 
-.Main__Content-sc-1w4nyzp-1{
+/* .Main__Content-sc-1w4nyzp-1{
     padding: 2% 5%;
+} */
+
+.es-embed-root{
+    max-width: 90%  !important;
 }
 
 .es-review-author-name{
@@ -683,7 +699,7 @@ body{
   }
   
   #topnav a:hover {
-    color: #8797e5;
+    color: #002aff;
   }
   
   #menu a:hover {
@@ -772,6 +788,7 @@ body{
     }
     #menu li a:hover{
         color: rgba(123, 193, 68, 1);
+        text-decoration: underline;
     }
     
     #menu li .active{
@@ -790,6 +807,11 @@ body{
     a:active{
         color: rgba(123, 193, 68, 1);
     
+    }
+
+    a:hover{
+        color: rgba(123, 193, 68, 1);
+        text-decoration: underline;
     }
     .nav-button{
         background-color: #7bc144;

@@ -18,9 +18,11 @@ const Header = () => {
                 setLogoUrl(data[0]); // Assuming the logo URL is returned as the first item in the response
             } else {
                 console.error('Failed to fetch logo URL');
+                setLogoUrl('src/assets/images/BSlogohighres_1.png')
             }
         } catch (error) {
             console.error('Error fetching logo URL', error);
+            setLogoUrl('src/assets/images/BSlogohighres_1.png')
         }
     };
 
