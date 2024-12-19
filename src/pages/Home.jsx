@@ -175,9 +175,7 @@ const Home = () => {
             >
                 <SwiperSlide><img src={shankara}></img> </SwiperSlide>
                 <SwiperSlide><img src={beautymed}></img> </SwiperSlide>
-                <SwiperSlide><img src={skincarerx}></img> </SwiperSlide>
                 <SwiperSlide><img src={greenpeel}></img> </SwiperSlide>
-                <SwiperSlide><img src={honneycollection}></img> </SwiperSlide>
             </Swiper>
         </div>
         <div id='reviews'>
